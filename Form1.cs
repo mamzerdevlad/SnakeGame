@@ -12,7 +12,9 @@ namespace SnakaGame
 {
     public partial class Form1 : Form
     {
+#pragma warning disable CS1591 // Отсутствует комментарий XML для открытого видимого типа или члена
         public Form1()
+#pragma warning restore CS1591 // Отсутствует комментарий XML для открытого видимого типа или члена
         {
             InitializeComponent();
         }
