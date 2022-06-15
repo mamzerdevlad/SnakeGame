@@ -21,7 +21,7 @@ namespace SnakaGame
         Graphics graphics;
         int X, Y;
         int [,] IsFree;
-        int[]AppleCoordinates;
+        int [] AppleCoordinates;
         readonly int CellSize = 39;
         bool IsApple;
         bool IsStep = false;
